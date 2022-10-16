@@ -9,9 +9,9 @@ type T_2345 = 2 | 3 | 4 | 5
 type T__345 =     3 | 4 | 5
 type T__34_ =     3 | 4
 
-// T2 extends T1 --> 3 | 4 extends 3 | 4 | 5
-// T1 extends T0
-// T0 extends number
+// T__34_ extends T__345 --> 3 | 4 extends 3 | 4 | 5
+// T__345 extends T_2345
+// T_2345 extends number
 
 const v1: T__34_ = 3
 const v2: T__345 = v1  // OK
