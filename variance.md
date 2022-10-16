@@ -62,6 +62,8 @@ type Animal   = {age: number, kind: string}
 type Pet      = {age: number, kind: string, name: string}
 
 //    Pet extends Animal
+// Animal extends Creature
+
 type Fn1 = (x: Creature) => Pet
 type Fn  = (x: Animal  ) => Animal
 type Fn3 = (x: Pet     ) => Creature
