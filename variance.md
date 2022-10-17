@@ -54,8 +54,8 @@ const fn1: Fn1 = fn2
 `fn1` expects `T__345`, but actual function is `fn2` which is capable of handling the wider type of the argument `T_2345`.
 From the other side, `fn1` must return `T1__345` which will be used somewhere futher as a variable, but actual function returning the result is `fn2` which produces only `T__34_`.
 
-## Row/Inclusive subtyping
-The example is based on row polymorphism (objects), the same logic can be applied to inclusive polymorphism (classes)
+## Row/Inclusion subtyping
+The example is based on row polymorphism (objects), the same logic can be applied to inclusion polymorphism (classes)
 ```typescript
 type Creature = {age: number}
 type Animal   = {age: number, kind: string}
