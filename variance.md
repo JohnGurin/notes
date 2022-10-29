@@ -109,5 +109,5 @@ fn_c's actual value is fn
            Animal => Animal
       {age, kind} => {age, kind}
 ```
-We supply `fn_c` with `Pet {age, kind, name}`, and `fn` needs more `Animal {age, kind}`. All good.
+We supply `fn_c` with `Pet {age, kind, name}`, and `fn` needs just `Animal {age, kind}`. All good.
 `fn` returns `Animal {age, kind}`, but `fn_c` types the return value as `Creature {age}` (dropping `kind`) and the caller is satisfied with the result.
