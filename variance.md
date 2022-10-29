@@ -2,7 +2,7 @@
 The subtyping is when you can assign a value of a subtype to a variable of a supertype
 
 ## Set subtyping
-A subtype has less or equeal number of members of a supertype. In Typescript the word `extends` intuitively more suitable for row or inclusive polymprphism (when an object/class of a subtype has more properties than a supertype, more on it in the next section).
+A subtype has less or equeal number of members of a supertype. In Typescript the word `extends` intuitively more suitable for row or inclusion polymprphism (when an object/class of a subtype has more properties than a supertype, more on it in the next section).
 
 ```typescript
 type T_2345 = 2 | 3 | 4 | 5
