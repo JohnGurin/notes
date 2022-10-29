@@ -38,7 +38,7 @@ fn1(v7) // OK
 const v8: T_2345 = 2
 fn1(v8) // NOT OK
 ```
-`v7` is a subtype of argument `a`, `v7` is narrower than the type the function excpects as an input. It means, the function knows how to deal with all members of the input. Otherwise, if we suplay a super type of the function's arguement type, the function won't be able to process all members of a wider type.
+`v7` is a subtype of argument `a`, `v7` is narrower than the type the function excpects as an input. It means, the function knows how to deal with all members of the input. Otherwise, if we supply a super type of the function's arguement type, the function won't be able to process all members of a wider type.
 
 By translating this reasoning to function subtyping we get to `Fn2` is subtype of `Fn1`, (`fn2` can be assigned to `fn1`)
 ```typescript
