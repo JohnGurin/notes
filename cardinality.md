@@ -6,7 +6,7 @@ type T_abc   = 'a' | 'b' | 'c' // |T_abc|  = 3
 type T_tuple = [T_bool, T_abc] // |T_bool| x |T_abc| = 2 x 3 = 6
 
 // (approximation of discriminated union type)
-type T_union = T_bool | T_abc  // |T_bool| + |T_abc| = 2 + 3 = 6
+type T_union = T_bool | T_abc  // |T_bool| + |T_abc| = 2 + 3 = 5
 type T_option<T> = T | null    // |T| + 1
 ```
 ## function cardinality (exponential)
